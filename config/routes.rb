@@ -3,4 +3,5 @@ Rails.application.routes.draw do
 
   resources :articles
 
+  delete "articles/:id", to: "articles#delete", as: :destroy_article
 end
