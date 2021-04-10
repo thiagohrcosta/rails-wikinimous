@@ -3,3 +3,35 @@
 // You can use Sass (SCSS) here: https://sass-lang.com/
 
 @import "bootstrap/scss/bootstrap";
+
+body{
+  background-image: -webkit-linear-gradient(65deg, #A683E3 50%, #E4E9FD 50%);
+  height: 100vh;
+  font-family: 'helvetica neue';
+
+}
+
+.box-content{
+  width: 500px;
+  padding: 30px;
+  border-radius: 20px;
+  background-color: #fff;
+  margin: 20px auto;
+}
+
+.text-title{
+    background-color: #A683E3;
+    text-align: center;
+    width: 500px;
+    height: 70px;
+    padding: 10px;
+    border-radius: 20px;
+    color: #fff;
+    margin: 20px auto;
+}
+
+.box-content a{
+  text-decoration: none;
+  color: #A683E3;
+  font-weight: bold;
+}
