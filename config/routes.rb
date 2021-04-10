@@ -1,15 +1,17 @@
 Rails.application.routes.draw do
   # For details on the DSL available within this file, see https://guides.rubyonrails.org/routing.html
 
-  #index route
-  root to: "articles#index"
+  resources :articles
 
-  # create new item route
+  # #index route
+  # root to: "articles#index"
 
-  get "articles/create", to: "articles#create", as: :create
+  # # create new item route
 
-  # display route
-  get "articles/:id", to: "articles#show", as: :article
+  # get "new", to: "articles#new", as: :new_article
+
+  # # display route
+  # get "articles/:id", to: "articles#show", as: :article
 
 
 
