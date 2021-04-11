@@ -4,13 +4,20 @@
     <%= @article.content %>
   </p>
 
-  <%= link_to "Home", articles_path %>
+  <div class="buttons">
+    <span class="btn-home">
+      <%= link_to "Home", articles_path %>
+    </span>
+    <span class="btn-home">
+      <%= link_to "Edit", edit_article_path(@article) %>
+    </span>
+    <span class="btn-home">
+      <%= link_to "Delete article",
+          destroy_article_path(@article),
+          method: :delete,
+          data: { confirm: "Are you sure?"} %>
+    </span>
+  </div>
 
-  <%= link_to "Edit", edit_article_path(@article) %>
-
-  <%= link_to "Delete article",
-      destroy_article_path(@article),
-      method: :delete,
-      data: { confirm: "Are you sure?"} %>
 
 </div>

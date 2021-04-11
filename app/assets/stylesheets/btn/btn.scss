@@ -1,0 +1,15 @@
+.buttons{
+  display: flex;
+  justify-content: space-around;
+}
+
+.btn-home{
+  padding: 10px 25px;
+  border-radius: 20px;
+  background-color: #f05945;
+  color: #fff
+}
+
+.btn-home a{
+  color: #fff;
+}
