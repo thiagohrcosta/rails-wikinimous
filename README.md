@@ -11,6 +11,7 @@ This project was created with:
  - [Pry-byebug](https://rubygems.org/gems/pry-byebug/versions/3.4.0?locale=pt-BR) (for debugging)
  - [Bootstrap](https://getbootstrap.com/)
  - Simple_form
+ - Sqlite3
 
 ## Show
 ![showImg](https://github.com/thiagohrcosta/rails-wikinimous/blob/master/public/img/articles2.png)
@@ -18,25 +19,14 @@ This project was created with:
 ## Edit
 ![editImg](https://github.com/thiagohrcosta/rails-wikinimous/blob/master/public/img/articles3.png)
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## How to run this project
+Download or clone it. . Then run in the main folder the command `rails server`. If needed, run `bundle install` to check if all gems are correctly installed. Then open the project on `localhost:3000/articles`
 
-Things you may want to cover:
+## What user can do?
+As user you can manipulate all **CRUD** operations like:
 
-* Ruby version
+ - Read articles already created;
+ - Create new article;
+ - Edit an article;
+ - Delete an article
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
