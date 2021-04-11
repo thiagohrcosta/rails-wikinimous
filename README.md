@@ -1,6 +1,6 @@
 # Last Articles
 
-![main banner](https://github.com/thiagohrcosta/rails-wikinimous/blob/master/public/img/articles1.png?raw=true)
+![main banner](https://github.com/thiagohrcosta/rails-wikinimous/blob/master/public/img/articlesMain.png?raw=true)
 
 ## Technologies
 This project was created with:
