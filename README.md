@@ -1,3 +1,4 @@
+
 # Last Articles
 
 ![main banner](https://github.com/thiagohrcosta/rails-wikinimous/blob/master/public/img/articlesMain.png?raw=true)
@@ -29,4 +30,29 @@ As user you can manipulate all **CRUD** operations like:
  - Create new article;
  - Edit an article;
  - Delete an article
+
+
+## Development routine
+
+**April 10**
+
+      - Project created;
+      - Model article created;
+      - Controller articles created;
+      - Using Faker to create content on DB;
+      - Created index and show and new actions on controller;
+      - Bootstrap added;
+      - Simple_form added;
+      - Using resources to create routes;
+      - Edit and update actions complete;
+      - Delete action complete;
+      - Applying some CSS on index page;
+
+**April 12**
+
+      - CSS display a article added;
+      - CSS to edit and update a article added;
+      - Upload images do Readme;
+      - Update Readme;
+      - Add roboto font;
 
