@@ -48,7 +48,7 @@ As user you can manipulate all **CRUD** operations like:
       - Delete action complete;
       - Applying some CSS on index page;
 
-**April 12**
+**April 11**
 
       - CSS display a article added;
       - CSS to edit and update a article added;
@@ -56,3 +56,9 @@ As user you can manipulate all **CRUD** operations like:
       - Update Readme;
       - Add roboto font;
 
+**April 12**
+
+      - Readme update with development routine;
+      - Button to add new article created;
+      - CSS to create new article added;
+      - Update Readme;
